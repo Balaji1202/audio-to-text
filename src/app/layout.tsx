@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Audio to text app",
+  title: 'Audio to text app',
 };
 
 export default function RootLayout({
@@ -11,9 +11,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
